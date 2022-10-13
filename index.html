@@ -13,10 +13,11 @@
       src="https://kit.fontawesome.com/4ded55c94c.js"
       crossorigin="anonymous"
     ></script>
+    <script src="js/script.js" defer></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <title>HCS - Home</title>
   </head>
   <body>
@@ -41,7 +42,7 @@
             </h2>
           </div>
           <div class="btn-wrapper">
-            <button class="btn-join">JOIN THE CREW!</button>
+            <button href="#" id="btn-join" class="btn-join" >JOIN THE CREW!</button>
           </div>
         </div>
         <div class="company-img">
@@ -89,7 +90,73 @@
         </div>
       </div>
       <h1 class="info header">Servers</h1>
+      <div class="servers-container">
+        <div class="servers">
+          <div class="game-logo">
+            <img src="img/fivem.png" alt="FiveM Servers" height="45px" />
+          </div>
+          <div class="server-wrapper">
+            <div class="server-box">
+              <div class="server-info">
+                <p class="server-name">HCS - FiveM #1</p>
+                <p class="server-online">OFFLINE</p>
+              </div>
+              <div class="server-connect">
+                <button class="connect">CONNECT</button>
+                <p class="players">0/150</p>
+              </div>
+            </div>
+            <div class="server-box">
+              <div class="server-info">
+                <p class="server-name">HCS - FiveM #2</p>
+                <p class="server-online">OFFLINE</p>
+              </div>
+              <div class="server-connect">
+                <button class="connect">CONNECT</button>
+                <p class="players">0/75</p>
+              </div>
+            </div>
+            <div class="server-box">
+              <div class="server-info">
+                <p class="server-name">HCS - FiveM #3</p>
+                <p class="server-online">OFFLINE</p>
+              </div>
+              <div class="server-connect">
+                <button class="connect">CONNECT</button>
+                <p class="players">0/50</p>
+              </div>
+            </div>
+            <div class="server-box">
+              <div class="server-info">
+                <p class="server-name">HCS - FiveM #4</p>
+                <p class="server-online">OFFLINE</p>
+              </div>
+              <div class="server-connect">
+                <button class="connect">CONNECT</button>
+                <p class="players">0/20</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="servers">
+          <div class="game-logo">
+            <img src="img/gmod.png" alt="Gmod Servers" height="45px" />
+          </div>
+          <div class="server-box">
+            <div class="server-info">
+              <p class="server-name">HCS - Gmod #1</p>
+              <p class="server-online">OFFLINE</p>
+            </div>
+            <div class="server-connect">
+              <button class="connect">CONNECT</button>
+              <p class="players">0/32</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
     <footer class="footer-distributed">
       <div class="footer-right">
         <a href="#"><i class="fa fa-facebook"></i></a>
@@ -97,7 +164,6 @@
         <a href="#"><i class="fa fa-linkedin"></i></a>
         <a href="#"><i class="fa fa-github"></i></a>
       </div>
-
       <div class="footer-left">
         <p class="footer-links">
           <a class="link-1" href="#">Home</a>
